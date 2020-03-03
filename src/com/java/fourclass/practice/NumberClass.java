@@ -1,7 +1,8 @@
 package com.java.fourclass.practice;
-
 import java.text.DecimalFormat;
 
+
+// this is number class
 public class NumberClass {
 
 	public static void main(String[] args) {
@@ -13,7 +14,6 @@ public class NumberClass {
 		System.out.println();
 		 System.out.println(String.format("%.3f", c)); 
 
-		 
 		 DecimalFormat dc= new DecimalFormat("00.00");
 		 System.out.println("Division is: " +dc.format(c));
 	}

@@ -1,12 +1,11 @@
 package com.java.fourclass.practice;
-
 import java.text.DecimalFormat;
-
 public class MyConst {
 	float a=10;
 	int b=3;
 	float c=a/b;
 	
+	//this is my edit
 	MyConst(){
 		System.out.println("This is default constructor .");
 	}
@@ -33,7 +32,9 @@ public class MyConst {
 		System.out.println("Some of the number :" +p1);
 	}
 	public static void main(String[] args) {
-		
+		 
+
+                // crete the obj
 
 		MyConst myObj =new MyConst();
 		MyConst myObj2 = new MyConst("00.00");
